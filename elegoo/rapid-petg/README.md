@@ -254,8 +254,8 @@ Adopting this framework transforms Rapid PETG from a temperamental high-speed ma
 | **Outer Wall Speed** | **60–70 mm/s** | Outer walls control dimensional accuracy. Lower speeds reduce polymer tension. | Dimensional undersizing or waviness → too fast. |
 | **Infill Pattern** | **Gyroid (preferred)** | Maintains continuous motion and minimizes pressure oscillation inside the melt zone. | Blobs starting at infill → switch away from rectilinear. |
 | **Pressure Advance / Flow Dynamics** | **0.030 – 0.045** <br> **Start:** ~0.035 | Compensates for melt compression and prevents corner over-extrusion. Critical for larger nozzles. | Corner swelling, nodules → PA too low. <br> Thin corners → too high. |
-| **Layer Height (0.6 nozzle)** | **0.20 – 0.24 mm** | Balances thermal stability and surface quality. Thicker layers trap heat longer. | Surface tearing → layers too thick. |
-| **Flow Ratio** | **1.00 baseline** (calibrate afterward) | Prevents artificial under-extrusion that weakens layer welding. | Brittle parts → flow too low. |
+| **Layer Height (0.6 nozzle)** | **0.18 – 0.24 mm** | Balances thermal stability and surface quality. Thicker layers trap heat longer. | Surface tearing → layers too thick. |
+| **Flow Ratio** | **0.98 baseline** (calibrate afterward) | Prevents artificial under-extrusion that weakens layer welding. | Brittle parts → flow too low. |
 | **Print Philosophy** | **Operate below thermal ceiling** | Melt stability produces better strength, gloss, and dimensional accuracy than chasing speed. | Printer looks fast but surfaces degrade → exceeding melt capacity. |
 
 ---
